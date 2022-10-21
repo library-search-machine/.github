@@ -32,15 +32,24 @@
 # Repositoy
 
 
-## Elastic_search-thymeleaf
+## [Elastic_search-thymeleaf](https://github.com/library-search-machine/Elastic_search-thymeleaf) 
+Elasticsearch와 thymeleaf를 통해 도서관 도서 검색 시스템을 최종적으로 구축하는 Repository
 
-## read_open_api
+## [read_open_api](https://github.com/library-search-machine/read_open_api)
+정보나루의 OPEN API를 읽어들여 DB에 저장하기위한 Repo
+초기에는 OPEN API를 이용해 모든 데이터(약 1700만건)을 읽어들일 예정이었으나 [정보 나루 OPEN API 트러블 슈팅](https://www.notion.so/OPEN-API-e8cfe070e6574aa5b0143a6e3c55fd04) 
+에 따라서 excel형식의 파일로 DB를 작성.
 
-## elasticsearch 
+## [elasticsearch](https://github.com/library-search-machine/elasticsearch) 
+Excel파일을 elasticsearch에 저장하기 위한 Repo
+[도서 검색엔진에 대한 의사결정](https://github.com/library-search-machine/elasticsearch)에 따라서 mysql이 아닌 elasticsearch로 데이터 구축을 하기로 결정.
 
-## Mysql_Search
+## [Mysql_Search](https://github.com/library-search-machine/Mysql_Search)
+thymeleaf형식으로 데이터 출력을 확인하기위한 Repo
+[와이어 프레임](https://github.com/library-search-machine/elasticsearch)에 따라 제작되었음.
 
-
+## 세부사항
+[도서관 검색 프로젝트](https://www.notion.so/9-73a7e47912c14b85b8be59a82caf0f59)
 
 
 ## Reference
